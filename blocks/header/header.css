@@ -6,11 +6,10 @@
     max-height: 52px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .header {
-        padding: 0;
-        max-width: 288;
-      }
+        max-width: 928px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -20,8 +19,9 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
     .header {
-        max-width: 928px;
-    }
+        padding: 0;
+        max-width: 288;
+      }
 }

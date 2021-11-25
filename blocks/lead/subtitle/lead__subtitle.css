@@ -10,12 +10,9 @@
     text-align: center;
     color: #fff;
 }
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .lead__subtitle {
-        font-size: 16px;
-        line-height: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 56px;
     }
 }
 
@@ -25,8 +22,10 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
     .lead__subtitle {
-        margin-bottom: 56px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
     }
 }
