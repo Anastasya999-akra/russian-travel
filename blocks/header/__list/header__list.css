@@ -1,0 +1,15 @@
+.header__list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+    .header__list {
+        margin-top: 30px;
+        margin-right: 16px;
+     }
+}
