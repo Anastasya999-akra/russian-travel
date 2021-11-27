@@ -16,13 +16,14 @@
 @media screen and (max-width: 768px) {
     .footer {
         max-width: 720px;
+        flex-direction: column;
+        column-gap: 48px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
         padding-top: 0;
-        max-width: 186px;
         flex-direction: column;
         margin: 64px 118px 0 16px;
     }

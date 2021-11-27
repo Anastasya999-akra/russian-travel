@@ -7,7 +7,8 @@
   align-items: center;
   color: #fff;
   background-image: url(../../../sprint-3-images/cover-trains.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 }
 

@@ -1,0 +1,10 @@
+.place__box {
+    grid-area: description;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 320px) {
+    .place__box {
+        max-width: 288px;
+    }
+}

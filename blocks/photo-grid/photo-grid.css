@@ -8,19 +8,19 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-       width: 928px;
+       max-width: 928px;
      }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-       width: 720px;
+      max-width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid {
-       width: 288px;
+       max-width: 288px;
        margin-top: 64px;
     }
 }
