@@ -32,20 +32,10 @@
     }
 }
 
-/*@media screen and (max-width: 610px) {
-    .place {
-        max-width: 610px;
-        grid-template-areas: "title"
-                             "link"
-                            "image"
-                            "description";
-    }
-}*/
-
 @media screen and (max-width: 320px) {
     .place {
+        margin-left: 0;
         max-width: 320px;
-       /* min-height: 900px;*/
         grid-template-areas: "title"
                              "link"
                              "image"
