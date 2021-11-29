@@ -7,7 +7,6 @@
     grid-template-areas: "title link"
                          "image description";
     gap: 48px 40px;
-    overflow: hidden;
 }
 
 .place:last-of-type {
