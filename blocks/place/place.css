@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 610px) {
+/*@media screen and (max-width: 610px) {
     .place {
         max-width: 610px;
         grid-template-areas: "title"
@@ -40,7 +40,7 @@
                             "image"
                             "description";
     }
-}
+}*/
 
 @media screen and (max-width: 320px) {
     .place {
