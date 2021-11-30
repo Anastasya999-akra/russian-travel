@@ -6,7 +6,17 @@
     margin-right: 18px;
     color: #fff;
     text-decoration: none;
+<<<<<<< HEAD
     text-transform: uppercase;
+=======
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+>>>>>>> 3c14335894687670b29e76b641e0710d176bccbc
 }
 
 @media screen and (max-width: 460px) {

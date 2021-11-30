@@ -17,13 +17,16 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
-        max-width: 352px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
+<<<<<<< HEAD
         max-width: 288px;
+=======
+>>>>>>> 3c14335894687670b29e76b641e0710d176bccbc
         margin-left: 16px;
     }
 
