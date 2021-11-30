@@ -6,6 +6,7 @@
     margin-right: 18px;
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 460px) {

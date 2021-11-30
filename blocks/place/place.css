@@ -35,6 +35,7 @@
 @media screen and (max-width: 320px) {
     .place {
         margin-left: 0;
+        margin-bottom: 50px;
         max-width: 320px;
         grid-template-areas: "title"
                              "link"

@@ -1,8 +1,6 @@
 .footer {
-    padding: 92px 0 24px;
-    font-family: "Inter",Arial, Helvetica, sans-serif;
     max-width: 1184px;
-    margin: 0 auto;
+    padding: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
 }
@@ -16,15 +14,14 @@
 @media screen and (max-width: 768px) {
     .footer {
         max-width: 720px;
-        flex-direction: column;
-        column-gap: 48px;
+        padding: 88px 24px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
-        padding-top: 0;
+        padding: 64px 118px 24px 16px;
+        max-width: 186px;
         flex-direction: column;
-        margin: 64px 118px 0 16px;
     }
 }

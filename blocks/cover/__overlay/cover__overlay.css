@@ -6,9 +6,10 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
 }
 
@@ -20,6 +21,8 @@
   height: 100%;
   position: absolute;
   transition: 0.3s;
+  top: 0;
+  left: 0;
 }
 
 .cover__overlay:hover::before {
