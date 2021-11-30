@@ -20,10 +20,7 @@
 
 @media screen and (max-width: 320px) {
     .footer__link {
-<<<<<<< HEAD
         margin-bottom: 32px;
-=======
->>>>>>> 3c14335894687670b29e76b641e0710d176bccbc
         font-size: 24px;
         line-height: 24px;
     }

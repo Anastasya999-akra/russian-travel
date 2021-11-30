@@ -1,29 +1,11 @@
 .footer__links {
-<<<<<<< HEAD
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-@media screen and (max-width: 320px) {
-    .footer__links {
-        flex-direction: column;
-    }
-}
-=======
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-template-rows: 1fr;
-  gap: 18px;
+  display: flex;
 }
 
 @media screen and (max-width: 320px) {
-  .footer__items {
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: 1fr;
-    gap: 32px;
+  .footer__links {
+    flex-direction: column;
   }
 }
->>>>>>> 3c14335894687670b29e76b641e0710d176bccbc
