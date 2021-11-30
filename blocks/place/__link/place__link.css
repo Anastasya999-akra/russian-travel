@@ -7,9 +7,10 @@
     line-height: 22px;
     color: #fff;
     opacity: 1;
+    align-self: start;
 }
 
 .place__link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
     transition: 0.3s;
 }

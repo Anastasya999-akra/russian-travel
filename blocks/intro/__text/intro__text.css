@@ -1,5 +1,6 @@
 .intro__text {
-    margin-top: 33px;
+    margin: 0 0 33px 0;
+    padding: 0;
     max-width: 690px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -14,6 +15,5 @@
 @media screen and (max-width: 320px) {
     .intro__text {
         margin-top: 40px;
-        margin-bottom: 0;
     }
 }

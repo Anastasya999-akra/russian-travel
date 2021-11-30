@@ -1,6 +1,6 @@
 .lead__title {
     margin: 0 auto 32px;
-    max-width: 720px;
+    /*max-width: 720px;*/
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -29,6 +29,5 @@
     .lead__title {
         font-size: 40px;
         line-height: 44px;
-        margin-bottom: 16px;
     }
 }
