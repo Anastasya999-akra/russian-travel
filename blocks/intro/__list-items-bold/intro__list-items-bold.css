@@ -1,3 +1,7 @@
 .intro__list-items-bold {
-    font-weight: 600;
+    font-weight: 400;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
 }
