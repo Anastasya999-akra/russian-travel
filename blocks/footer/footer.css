@@ -31,3 +31,9 @@
     
     }
 }
+
+@media screen and (max-width: 320px) {
+    .footer {
+        min-width: 200px;
+    }
+}
