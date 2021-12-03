@@ -34,14 +34,13 @@
 
 @media screen and (max-width: 610px) {
     .place {
-        margin-left: 0;
         margin-bottom: 50px;
-        max-width: 320px;
+        /*max-width: 320px;*/
         grid-template-areas: "title"
                              "link"
                              "image"
                              "description";
-        gap: 32px;
+        row-gap: 32px;
     }
 }
 
@@ -49,11 +48,19 @@
     .place {
         margin-left: auto;
         margin-right: auto;
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .place {
+        grid-template-columns: 320px 1fr;
+       
     }
 }
 
 @media screen and (max-width: 320px) {
-.place:last-of-type {
+    .place:last-of-type {
         margin-bottom: 66px;
     }
 }
