@@ -35,6 +35,7 @@
 
 @media screen and (max-width: 320px) {
     .footer {
+        padding-top: 66px;
         min-width: 200px;
     }
 }
